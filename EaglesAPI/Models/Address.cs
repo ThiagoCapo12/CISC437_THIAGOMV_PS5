@@ -40,10 +40,10 @@ public partial class Address
     [Unicode(false)]
     public string AddressState { get; set; } = null!;
 
-    [Column("ADDDRESS_ZIP")]
+    [Column("ADDRESS_ZIP")]
     [StringLength(9)]
     [Unicode(false)]
-    public string AdddressZip { get; set; } = null!;
+    public string AddressZip { get; set; } = null!;
 
     [Column("ADDRESS_CRTD_ID")]
     [StringLength(40)]
